@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(135deg, hsla(315, 17%, 95%, 0.116), #0414ebe5);  */
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+  
+  /* Center the form */
+  .page-center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form container */
+  .auth-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #f9f9f9; /* Soft light gray */
+    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  /* Heading */
+  .auth-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333; /* Deep gray for text */
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Input fields */
+  .auth-container input {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #e8f5f5; /* Very light turquoise */
+    transition: 0.3s ease;
+    animation: fadeInUp 0.8s ease-in-out;
+  }
+  
+  .auth-container input:focus {
+    outline: none;
+    border-color: #00bcd4; /* Turquoise border on focus */
+    background-color: #ffffff;
+  }
+  
+  /* Gradient Button */
+  .auth-container button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #00bcd4, #3f51b5); /* Turquoise to Indigo gradient */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .auth-container button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(0, 188, 212, 0.3);
+  }
+  
+  /* Bottom text */
+  .auth-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #3f51b5; /* Indigo color */
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .auth-container p:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  

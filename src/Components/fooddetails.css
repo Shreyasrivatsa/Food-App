@@ -1,0 +1,155 @@
+
+.recipeCard {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #393e46;
+    background-color: #fff;
+  }
+  
+  .recipeName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .receipeImg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .infoSection {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .infoItem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .sectionTitle {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .recipeInstruction ol {
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .recipeInstruction li {
+    margin: 12px 0;
+    line-height: 1.5;
+    color: #5b16a0;
+    color: #5b16a0;
+  }
+  
+
+
+ .recipeCard {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.recipeName {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif; /* Bold and modern handwriting style */
+}
+
+.receipeImg {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.infoSection {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #222;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif; /* Added modern font */
+}
+
+/* Ingredients section styling */
+.itemcontainer {
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #f4e1f1; /* pastel pink */
+  border-radius: 10px;
+  color: #5c4e9e; /* rich pastel purple */
+  font-family: 'Quicksand', sans-serif; /* Modern handwritten font */
+}
+
+.itemcontainer h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #6a1b9a; /* Bold pastel purple */
+}
+
+.amt {
+  font-size: 18px;
+  font-weight: 700;
+  color: #4a148c; /* Deep purple */
+  margin-top: 4px;
+}
+
+.recipeInstruction {
+  padding: 0 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #570b8d; 
+}
+
+.recipeInstruction ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.recipeInstruction li {
+  margin-bottom: 12px;
+  text-align: left;
+  line-height: 1.6;
+  list-style-position: outside;
+  padding-left: 0.5rem;
+  white-space: pre-wrap;
+  color: #490679; 
+}

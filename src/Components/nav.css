@@ -1,0 +1,66 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(135deg, #5e61dff5, #da8ce7ee); /* Soft pink to lavender */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: 1.5em;
+  font-family: 'Arial', sans-serif;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+.nav .nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+
+.nav-links a:hover {
+  background: linear-gradient(135deg, #f48fb1, #ba68c8); /* Subtle gradient hover */
+  color: white;
+  border-color: #f48fb1;
+  transform: scale(1.05);
+}
+
+.nav-links a:active {
+  background-color: #ab47bc;
+  border-color: #ab47bc;
+}
+
+.nav h1 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Lighter shadow */
+}

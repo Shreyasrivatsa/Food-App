@@ -1,0 +1,23 @@
+/* innercontainer.css */
+
+.inner-container {
+    display: flex;
+    flex-direction: column; /* or 'row' depending on your layout */
+    padding: 20px;
+    margin: 0 auto; /* Centers the container */
+    max-width: 1200px; /* Maximum width for large screens */
+    width: 100%; /* Makes sure it takes up the full width */
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    gap: 20px; /* Adds spacing between child elements */
+  }
+  
+  /* Optional: Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .inner-container {
+      padding: 15px; /* Reduced padding for smaller screens */
+      gap: 15px; /* Reduced gap between children */
+    }
+  }
+  

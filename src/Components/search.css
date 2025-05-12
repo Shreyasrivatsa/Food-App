@@ -1,0 +1,86 @@
+/* search.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures elements don't overflow the page */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Search container */
+  .searchcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px; /* Space from the top of the page */
+  }
+  
+  .input {
+    width: 300px;
+    text-decoration: solid;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 1.1em;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    background: linear-gradient(135deg, #13c22294, #0683e9, #aa47bc0c); 
+    color: white;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #ff4081; 
+    box-shadow: 0 0 10px rgba(255, 64, 129, 0.8);
+  }
+  
+  .input::placeholder {
+    color: white;
+    opacity: 0.7; /* Light opacity for the placeholder text */
+  }
+  
+  .input:hover {
+    background: linear-gradient(135deg, #ff4081, #42a5f5); /* Gradient on hover from pink to blue */
+    border-color: #ff4081; /* Pink border on hover */
+  }
+  
+  .input:active {
+    background-color: #d500f9; /* Solid purple when clicked */
+    border-color: #d500f9;
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  /* search.css */
+.searchcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.input {
+  padding: 12px 20px;
+  font-size: 18px;
+  width: 300px;
+  border: 2px solid #42a5f5;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input:focus {
+  border-color: #ff6f61;
+  box-shadow: 0 0 10px rgba(255, 111, 97, 0.3);
+}
+.searchcontainer {
+  border: 2px solid rgba(241, 236, 236, 0.027); /* For debugging visibility */
+  padding: 20px;
+}

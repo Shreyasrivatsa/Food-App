@@ -1,0 +1,79 @@
+/* itemlist.css */
+
+.itemcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between each item */
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Centers the container */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .itemcontainer h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  .nameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .amt {
+    font-size: 1rem;
+    color: #666666;
+    font-style: italic;
+  }
+  
+  /* Loading text styling */
+  .itemcontainer p {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+.itemcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+  justify-content: flex-start; /* Align items to the start of the main axis */
+  align-items: flex-start;     /* Align items to the start of the cross axis */
+  box-sizing: border-box;
+}
+
+.ingredientItem {
+  background-color: #f4f4f4;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  flex: 1 1 100%;             /* Each item takes full width */
+  box-sizing: border-box;
+  white-space: normal;        /* Allow text to wrap */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+  /* Optional: Responsive design */
+  @media (max-width: 768px) {
+    .itemcontainer {
+      padding: 15px;
+      gap: 10px;
+    }
+  
+    .itemcontainer h4 {
+      font-size: 1rem; /* Adjusts the font size for smaller screens */
+    }
+  
+    .amt {
+      font-size: 0.9rem;
+    }
+  }
+  
